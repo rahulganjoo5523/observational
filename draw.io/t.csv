@@ -1,0 +1,245 @@
+Name,Port,Header,Protocol,Status
+NJVPWEBFARM01,,,,
+2009GrassRoots_1945719624,8167,,http,Started
+2010GrassRoots,6168,,http,Started
+AIRS,8251,,http,Started
+All Star Flash,8103,,http,Stopped
+AllStarTechTraining,8162,,http,Stopped
+ArenaNetStyle,8085,,http,Started
+ASMS,8095,,http,Started
+ASMSWebservice,80,asmswebservice,http,Started
+bdr.nba.com.redirect,8754,,http,Started
+BEI Phone Forwarder,8180,,http,Started
+BEI Voicemail forwarder,8181,,http,Started
+BenefitsTipOff (PlayerPension),8666,,http,Started
+bizboxscore.redirect,8982,,http,Started
+BoxKeyService,8060,,http,Started
+BoxKeyServiceRest,80,boxkeyservicerest,http,Started
+BXFLog,8164,,http,Started
+Call Log,8183,,http,Started
+Call Parrot Redirect,80,nbacallparrot,http,Stopped
+CareerCourt,80,careercourt,http,Started
+careercourtdev,9991,,http,Started
+CaseManagement,80,casemanagement,http,Started
+CGMRS,8088,,http,Started
+Cisco Phone Forwarder,8154,,http,Started
+Cisco Voicemail Forwarder,8155,,http,Started
+Citrix,8111,,http,Stopped
+CodeOfConduct,7071,,http,Started
+CodeOfConductAdmin,7072,,http,Started
+Compliance,8153,,http,Started
+Concur-New,8853,,http,Started
+ConductAndDiscipline,8343,,http,Started
+CorpPhoneDirectory,8156,,http,Started
+Courtside Staff,8175,,http,Started
+CPAMemotech,9090,,http,Stopped
+CRM Dynamics,8203,,http,Started
+CumeStats,8087,,http,Started
+DayOfService,8223,,http,Started
+DCOAppInventory,80,DCOAppInventory,http,Started
+DCOAPPREQADMIN,8129,,http,Started
+DCOAPPREQUEST (Data Center Operations),8128,,http,Started
+DCOCNTRT,80,DCOCNTRT,http,Started
+DCOInventory,8058,,http,Started
+DCOLIC,8137,,http,Started
+DealTrack,8145,,http,Started
+DigitalSurvey,8134,,http,Started
+D-League Game Reports System,8196,,http,Started
+Dleague Rosters,8097,,http,Started
+DMM,80,DMM,http,Stopped
+DocMgmtRedirect,80,docs,http,Started
+E Redbook,8989,,http,Started
+EInvoice,8213,,http,Started
+EmployeeDirectory,8169,,http,Started
+EmpPhotoBrowseTest,2034,,http,Stopped
+EMS,8057,,http,Started
+EMS for Blackberry,8106,,http,Started
+EMS Redirect,9000,,http,Started
+EMSResponseAllStar,8101,,http,Stopped
+ERecognition,8221,,http,Started
+eviteNBAAllStar2008,8083,,http,Stopped
+evitenbadraft2009,8109,,http,Stopped
+Game Notes,8068,,http,Started
+Game Schedule,8096,,http,Started
+Game Schedule Web Service,80,GSWebservice,http,Started
+Game Stats,8065,,http,Started
+GameInquiry,8551,,http,Started
+GameOps,80,GameOps,http,Stopped
+GiftDisclosure,8305,,http,Started
+GLeagueOnboarding,3154,,http,Started
+GMGIA China,8190,,http,Started
+GMGIAOnline_Internal,8150,,http,Started
+GRS 2.0 Web,80,grsweb,http,Started
+GRS2.0Webtest,8249,,http,Stopped
+GRSreports,8214,,http,Started
+HolidayVoucher,8160,,http,Started
+HON Cisco Phone Forwarder,8178,,http,Started
+HON Voicemail forwarder,8179,,http,Started
+HRDoc,8287,,http,Started
+HRreports,80,hrreports,http,Stopped
+IssueLog,80,issueLog,http,Stopped
+itbenefits,8212,,http,Stopped
+ITCentral,8225,,http,Started
+JabberPhotos,80,jabberphotos,http,Started
+JHB Phone Forwarder,8205,,http,Started
+JHB Voicemail Forwarder,8206,,http,Started
+LockerVisionView,8017,,http,Started
+London Cisco Phone Forwarder,80,lonphones.nba-hq.com,http,Started
+London Cisco Voicemail Forwarder,8173,,http,Started
+LPauth,8108,,http,Started
+Mail Log,8189,,http,Started
+MediaCentralRegistration,8204,,http,Started
+MeetTheExec,8216,,http,Started
+Memotech,8988,,http,Started
+Mexico Phone Redirect,8673,,http,Started
+Mexico Voicemail Redirect,8674,,http,Started
+Mobile Call Log,8188,,http,Started
+mRedbook,8102,,http,Started
+MRS Institutional Plan,8144,,http,Started
+Mumphones,8302,,http,Started
+mumvoicemail,8301,,http,Started
+MyCallPilot Redirect,80,mycallpilot,http,Stopped
+NBA Corporate Store,80,nbacorporatestore,http,Started
+NBA Password Management,80,passwordmgmt,http,Started
+NBA Rosters,8098,,http,Started
+NBA Shuttle,8140,,http,Started
+NBA Team Applications - LandingPortal,80,nbateamapps,http,Started
+NBA Team Applications - LandingPortal - SecurityRep,80,nbateamappssecrep,http,Started
+NBA Team Apps_LandingPage TEST,9111,,http,Started
+NBA2008Draft,8091,,http,Stopped
+NBA911,8170,,http,Started
+NBAACD_Redirect,8445,,http,Started
+NBAACD-Reports_Redirect,8446,,http,Started
+NBABroadcastManual,8126,,http,Started
+NBACollectibles,8146,,http,Started
+NBACompliance2014,8215,,http,Started
+NBAConnections,8136,,http,Started
+NBADMWebServices,555,,http,Started
+NBADOCs_OPS,8244,,http,Started
+nbadocs-it,8472,,http,Started
+nbadocs-opstech,8241,,http,Started
+NBAFinanceReports,80,NBAFinanceReports,http,Started
+NBAFinanceSelfservice,80,nbafinanceselfservice,http,Started
+NBAHRSelfService,80,nbahrselfservice,http,Started
+NBAJobs,80,nbajobs,http,Started
+NBALogo,80,nbalogo,http,Started
+NBAOfficialsAdmin,8166,,http,Started
+NBAPact,8147,,http,Started
+NBAPrintingV2,8163,,http,Started
+NBARC_Forwarder,8226,,http,Started
+NBARecordCenter,8240,,http,Started
+NBARefereePerformanceSVC,8077,,http,Started
+NBARefereePerformanceUI,8078,,http,Started
+NBASearch,8093,,http,Started
+NBAStats,80,nbastats,http,Started
+NBDLLogo,80,nbdllogo,http,Stopped
+Nesbit,9021,,http,Started
+netscalertest,9555,,http,Started
+OfflineMessage,8234,,http,Started
+OIW,80,oiw,http,Stopped
+OIW Game Report,8191,,http,Started
+OIW v2,8171,,http,Started
+OIW_4.0,8006,,http,Started
+OIW2SAP_Service,8633,,http,Started
+OMS,8211,,http,Started
+OngoingFeedback,8142,,http,Stopped
+OngoingFeedbackBB,8143,,http,Started
+OnLineTraining (dead),8132,,http,Stopped
+OperationsManual,8100,,http,Started
+ORSCore,8114,,http,Started
+ORSDLeague,8089,,http,Started
+ORSPilot,8184,,http,Started
+ORSServiceDLeague,8252,,http,Started
+ORSWebService,8210,,http,Started
+ORSWebserviceV2,8233,,http,Started
+orswebservicewnba,8246,,http,Started
+ORSWNBA,8090,,http,Started
+PATS,8174,,http,Started
+PCMS.redirect,8871,,http,Started
+PDP,8135,,http,Started
+pdpnotesredir,8991,,http,Started
+peopleanalytics,80,peopleanalytics,http,Started
+peopleanalyticsportal.redirect,8981,,http,Started
+peopleanalyticsQA,80,qa-peopleanalytics,http,Started
+PeopleSearch,8111,,http,Started
+photoscentral,80,photoscentral,http,Started
+PrismaAccess,8218,,http,Started
+ProcurementReq,6257,,http,Started
+ProfilePictureService,8222,,http,Started
+PSOFTDEVTRACKING,8130,,http,Started
+PTI,8092,,http,Started
+PTRS,8165,,http,Started
+PTRS Service,80,PTRSService,http,Started
+qa-bizboxscore.redirect,8667,,http,Started
+qa-dwhreports.redirect,8865,,http,Started
+qa-peopleanalyticsportal.redirect,8866,,http,Started
+qa-rightslogic,8056,,http,Started
+RefereeInquiry,8231,,http,Started
+RefereeInquiry_v2,8900,,http,Started
+RefEval,80,refeval,http,Started
+ReplayCenter_Forwarder,8224,,http,Started
+ReportCalls,8232,,http,Started
+Rightslogic,8771,,http,Started
+Rightslogic_dms_redirect,8483,,http,Started
+Rightslogic_dmsreports_redirect,8482,,http,Started
+Rightslogic_qa-dms_redirect,8481,,http,Stopped
+Rightslogic_qa-dmsreport_redirect,80,qa-dmsreports,http,Started
+RIO Phones Forwarder,8207,,http,Started
+RIO Voicemail Forwarder,8208,,http,Started
+SAGE (Security and Game Expense System),8131,,http,Started
+SAGE.redirect,8877,,http,Started
+SAP Business Object,8990,,http,Started
+SB5000,8081,,http,Started
+SCW_40,8815,,http,Started
+ServerVariables,8245,,http,Started
+SHA Phone Forwarder,8182,,http,Started
+SHA Voicemail forwarder,8289,,http,Started
+SIP Redirect,8059,,http,Stopped
+SIS,8117,,http,Started
+SubmitAQuestion,8333,,http,Started
+SubmitAQuestionAdmin,8149,,http,Started
+SwireTravelBJ,8219,,http,Stopped
+TAIphonesRedirect,8200,,http,Started
+TAIvoicemailRedirect,8202,,http,Started
+Tdoc (NBADocuments for Legal Deptt),8124,,http,Started
+Team Inquiry Website TEST,8070,,http,Started
+Team Office List,8063,,http,Started
+Teamnet Blackberry,8084,,http,Stopped
+TeamNetStar,8158,,http,Stopped
+teams.nba.comRedirect,80,teams.nba.com,http,Started
+TeamTech,8082,,http,Started
+teamwikidocs,8107,,http,Started
+Techsummit,8086,,http,Stopped
+Test Site,8200,,http,Stopped
+TEST123,8152,,http,Stopped
+TestWildcard,9280,,http,Stopped
+TimeOff,8138,,http,Started
+TIW_GL,8000,,http,Started
+TIW_V2,8256,,http,Started
+TIWPlayoffs,8118,,http,Started
+Toronto Phones Forwarder,8176,,http,Started
+Toronto Voicemail Forwarder,8177,,http,Started
+TPP,8099,,http,Started
+TRS4.0,8275,,http,Started
+TTOS (Team Ticket Offer System),8123,,http,Started
+TWNW,8159,,http,Stopped
+TwnwReport,8161,,http,Stopped
+userdeviceinventory,8110,,http,Started
+VideoClipsCreate,8278,,http,Started
+VirtualSuggestionBox,8209,,http,Started
+VRSBB,8139,,http,Started
+VTH,8141,,http,Started
+VTHBB,8151,,http,Started
+VTHBOG,8186,,http,Started
+VTHContent,8157,,http,Started
+VTHinternal,8303,,http,Started
+VTHInternalBOG,8187,,http,Started
+VtOrderSystem,8120,,http,Stopped
+WalkforWellness,8220,,http,Started
+wikidocs,8104,,http,Started
+Wisetrack,8201,,http,Started
+WNBA Broadcast Ops,8121,,http,Started
+WNBA Rosters,8061,,http,Started
+WNBA TIW,8243,,http,Started
+WNBALogo,80,wnbalogo,http,Stopped
+Year End Game Review,8242,,http,Started
