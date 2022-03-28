@@ -1,0 +1,118 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="GENERATOR" content="Microsoft SharePoint">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css/bootstrap.min.css")
+    @Styles.Render("~/Content/css/fontawesome.min.css")
+    @Styles.Render("~/Content/css/NBAStyles.css")
+    @Styles.Render("~/Content/css/newstyles.css")
+    @Styles.Render("~/Content/css/jquery.toast.min.css")
+    @Styles.Render("~/Content/css/ekko-lightbox.css")
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-128679130-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="basketball-header ms-dialogHidden">
+            <div class="container">
+                <div class="basketball-header-group">
+                    <div class="logo-and-toggle">
+                        <div class="basketball-logo">
+                            @if (Session["Role"] != null)
+                            {
+                                if (Session["Role"].ToString() == "League")
+                                {
+                                    <a href="/ArenaDynamic/Index">
+                                        <img src="~/Content/img/NBA-Logo.png" alt="NBA logo">
+                                        <span id="logo-text">NBA Arena Database</span>
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a href="/ArenaDynamic/Details/@Session["TeamId"].ToString()">
+                                        <img src="~/Content/img/NBA-Logo.png" alt="NBA logo">
+                                        <span id="logo-text">NBA Arena Database</span>
+                                    </a>
+                                }
+                            }
+                        </div>
+                        <div class="user-login">
+                            @if (null == ViewBag.IsUnauthorized || !Convert.ToBoolean(ViewBag.IsUnauthorized))
+                            {
+                            <p>Welcome, <b>
+                                @if (Session["Name"] != null)
+                                {
+                                    <label>@Session["Name"].ToString()</label>
+                                }                            
+                            </b></p>
+                            }
+                            <p><b>
+                                @if (Session["TeamName"] != null)
+                                {
+                                    @Html.Label(string.Format("{0}", Session["TeamName"].ToString()));
+                                }
+                            </b></p>
+                            <p style="color: white !important">
+                                @Html.ActionLink("Log off", "Logoff", "Login", null, new { @style = "color:white" })
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        @if (Session["Role"] != null && Session["Role"].ToString() == "League")
+        {
+            <div class="basketball-nav">
+                <div class="container">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-offcanvas navbar-offcanvas-right navbar-offcanvas-touch offcanvas-transform js-offcanvas-done" id="js-bootstrap-offcanvas">
+                            <ul class="nav navbar-nav">
+                                <li><a target="" title="This is the link for Home page" href="/ArenaDynamic"><span>Home</span></a></li>
+                                <li><a target="" title="This is the link for Report Generator" href="/Report"><span>Report Generator</span></a></li>
+                                <li><a target="" title="This is the link for Report Generator" href="/Users"><span>Manage User Roles</span></a></li>                                
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        }        
+        <div class="contentpart">
+            <div class="container">
+                @RenderBody()
+            </div>
+
+            <footer>
+                <div class="container">
+                    <p>
+                        Copyright @DateTime.Now.Year NBA Media Ventures, LLC | NBA Media Ventures, LLC. All right reserved. No portion of this site may be duplicated, redistributed or manipulated in any form.<br> By accessing any information on this site, you agree to
+                        abide by the NBA.com Network Privacy Policy and Terms of Use.
+                    </p>
+                </div>
+            </footer>            
+        </div>
+    </div>
+    @Scripts.Render("~/scripts/jquery-1.12.4.min.js")
+    @Scripts.Render("~/scripts/jquery-ui-1.12.1.min.js")
+    @Scripts.Render("~/scripts/bootstrap.min.js")
+    @Scripts.Render("~/scripts/dropzone.js")
+    @Scripts.Render("~/scripts/multiselect.min.js")
+    @Scripts.Render("~/scripts/jquery.toast.min.js")
+    @Scripts.Render("~/scripts/ekko-lightbox.min.js")
+    @Scripts.Render("~/scripts/jquery.mask.min.js")
+    @RenderSection("scripts", required: false)
+</body>        
+</html>
